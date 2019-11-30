@@ -159,6 +159,13 @@ border:1px solid #000;
 	font-style:italic;
 }
 
+.tab {
+	width:60%;
+	margin-left:20%;
+	height:auto;
+	padding:5px;
+}
+
 /* -------------------------------------
 box model
 ----------------------------------------*/
