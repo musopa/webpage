@@ -121,6 +121,14 @@ a:hover {
 	 background-color:	#FFFACD;
 	 color:#000;
 }
+
+img {
+	border:1em;
+	-moz-border-radius:1em; 
+	-o-border-radius:1em; 
+	-webkit-border-radius:1em; 
+	border-radius:1em;
+}
 /*-----------HTML Page-------------*/
 #table1 {
 border:1px solid #000;
