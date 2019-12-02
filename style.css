@@ -80,13 +80,13 @@ hr{
 .code {
 	background:#FFFACD; 
 	border:1px solid #000; 
-	-moz-border-radius:15px; 
+	-moz-border-radius:1em; 
 	-o-border-radius:1em; 
 	-webkit-border-radius:1em;
 	border:1px;
 	font-weight:bold;
 	font-size:1.5em;
-	margin-left:25%; 
+	margin-left:20%; 
 	padding:10px; 
 	width:60%; 
 }
