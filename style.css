@@ -1,0 +1,389 @@
+/* Building Websites CSS 30/11/2019 Author P Lacey */
+
+/* ---------------------------------------------------
+Reset
+-----------------------------------------------------*/
+
+* {	
+    margin: 0; 
+	padding: 0; 
+}
+
+/* ---------------------------------------------------
+General Site Pages
+-----------------------------------------------------*/
+
+body {
+	background:#FAFAD2;
+	color:#000; 
+	font:100%/1 "DejaVu Sans", "URW Gothic L", "Helvetica Neue", Helvetica, Arial, "Microsoft Sans Serif", sans-serif;
+	width:100%;
+}
+
+p {
+	color:#000;
+	font-size:1.5em;
+	line-height:25px;
+	margin:auto;
+	padding:10px;
+	width:70%;
+}
+
+h1{
+	font-size:2.5em;
+	color:#005;
+	padding:10px;
+	text-shadow:3px 3px 3px #999;
+	
+} 
+
+h2{
+	font-size:2.3em;
+	color:#005;
+	padding:10px;
+	text-shadow:3px 3px 3px #999;
+} 
+
+h3 {
+	font-size:1.5em;
+	color:#005;
+	padding:10px;
+	text-shadow:3px 3px 3px #999;
+} 
+
+h4 {
+	font-size:1.0em;
+	color:#005;
+	padding:10px;
+	text-shadow:3px 3px 3px #999;
+} 
+
+h5 {
+	font-size:1.0em;
+	color:#005;
+	padding:10px;
+	text-shadow:3px 3px 3px #999;
+} 
+
+h6 {
+	font-size:1.0em;
+	color:#005;
+	padding:10px;
+	text-shadow:3px 3px 3px #999;
+} 
+
+hr{
+	width:30%;
+	margin:0 auto 0;
+}
+
+.code {
+	background:#FFFACD; 
+	border:1px solid #000; 
+	-moz-border-radius:15px; 
+	-o-border-radius:1em; 
+	-webkit-border-radius:1em;
+	border:1px;
+	font-weight:bold;
+	font-size:1.5em;
+	margin-left:25%; 
+	padding:10px; 
+	width:60%; 
+}
+
+.center {
+    text-align:center;
+}
+
+.nav a{
+    font-family: arial, sans-serif;
+	width:30%;
+    font-size:16px;
+    color:#000;
+    margin-left:34%;
+	border-bottom:1px solid #000;
+	border-right:1px solid #000;
+	border-left:1px solid #000;
+	border-top:1px solid #000;
+	-moz-border-radius:1em; 
+	-o-border-radius:1em; 
+	-webkit-border-radius:1em; 
+	border-radius:1em;
+	padding:15px;
+	text-align:center;
+	display:inline-block;
+    text-decoration:none;
+	background-color:#FFF;
+	font-weight:bold;
+}
+
+.link a{
+    font-family: arial, sans-serif;
+	width:41%;
+    font-size:16px;
+    color:#000;
+    margin-left:28%;
+	border-bottom:1px solid #000;
+	border-right:1px solid #000;
+	border-left:1px solid #000;
+	border-top:1px solid #000;
+	-moz-border-radius:1em; 
+	-o-border-radius:1em; 
+	-webkit-border-radius:1em; 
+	border-radius:1em;
+	padding:15px;
+	text-align:center;
+	display:inline-block;
+    text-decoration:none;
+	background-color:#FFF;
+	font-weight:bold;
+}
+
+a:hover {
+	 background-color:	#FFFACD;
+	 color:#000;
+}
+
+img {
+	border: 1em;
+	-moz-border-radius:1em; 
+	-o-border-radius:1em; 
+	-webkit-border-radius:1em; 
+	border-radius:1em;
+}
+
+#image {
+	border: solid 1px;
+	-moz-border-radius:1em; 
+	-o-border-radius:1em; 
+	-webkit-border-radius:1em; 
+	border-radius:1em;
+	width:300px;
+}
+
+/* ---------------------------------------------------
+HTML Page
+-----------------------------------------------------*/
+
+#table1 {
+border:1px solid #000;
+width:400px;
+margin:auto;
+}
+
+table  tr td{
+	width:400px;
+	height:auto;
+	padding:5px;
+	border:1px solid #000;
+}
+
+/* ---------------------------------------------------
+CSS Page
+-----------------------------------------------------*/
+
+#table1 {
+border:1px solid #000;
+width:400px;
+margin:auto;
+}
+
+ table  tr td{
+	width:400px;
+	height:auto;
+	padding:5px;
+	border:1px solid #000;
+}
+
+
+#table2 {
+border:1px solid #000;
+width:70%;
+margin:auto;
+margin-left:15%;
+border:1px solid #000;
+}
+
+ table  tr td{
+	width:40%;
+	height:auto;
+	padding:5px;
+	border:1px solid #000;
+}
+
+#blue {
+	color:#0000CD;
+}
+
+#green {
+	color:#0a0;
+	font-style:italic;
+}
+
+.tab {
+	width:60%;
+	margin-left:20%;
+	height:auto;
+	padding:5px;
+}
+/*
+#nav {
+    font-family: arial, sans-serif;
+	width:70%;
+    font-size:14px;
+    color:#000;
+    margin-left:15%;
+}
+
+#nav ul {
+     list-style-type: none;
+	 
+}
+
+#nav ul li a {
+    text-align:center;
+    border-bottom:1px solid #000;
+	border-right:1px solid #000;
+	border-left:1px solid #000;
+	border-top:1px solid #000;
+	width:70%;
+	padding:12px;
+    display:inline-block;
+    text-decoration:none;
+	background-color:#FFF;
+	font-weight:bold;
+    color:#000;
+}
+
+
+#nav ul li a:hover {
+	 background-color:#FFFACD;
+	 color:#000;
+}
+
+/* ---------------------------------------------------
+Tutorial example horizontal navigation
+-----------------------------------------------------*/
+	
+#horizontalnavigation {
+	
+	width:75%; 
+	float:left;
+	margin:0 0 20px 200px;
+	
+}
+
+#horizontalnavigation ul {
+	margin:0px; 
+	padding:0px; 
+	list-style-type:none;
+	
+}
+
+#horizontalnavigation li {
+	display:inline;
+}
+
+#horizontalnavigation a {
+	border-bottom:1px solid #000;
+	border-right:1px solid #000;
+	border-left:1px solid #000;
+	border-top:1px solid #000;
+	float:center;
+	width:20%;
+	padding:10px 30px; 
+	color:#000; 
+	background:#fff; 
+	text-decoration:none; 
+	margin:auto ;
+}
+
+#horizontalnavigation a:hover {
+	color:#000; 
+	background:#FFFACD;
+}
+
+/* ---------------------------------------------------
+Tutorial example vertical navigation
+-----------------------------------------------------*/
+
+#examplenavigation {
+	width:200px;
+}
+
+#examplenavigation ul {
+	margin:0;
+	padding:0;
+}
+
+#examplenavigation li {
+	list-style-type:none;
+}
+
+#examplenavigation a {
+	padding:5px 15px;
+	display:block;
+	color:#000;
+	background:#ccc;
+	margin-bottom:1px;
+	text-decoration:none;
+} 
+
+#examplenavigation a:hover {
+	background:#000;
+	color:#fff;
+}
+
+#finishednav {
+	margin-left:250px;
+	text-align:left;
+}
+
+.navimage {
+	margin-left:250px;
+}
+
+/* -------------------------------------
+box model
+----------------------------------------*/
+
+#box {
+    width:700px; 
+	margin:auto;
+}
+
+#marginbox {
+     border:1px solid; 
+	 width:400px; 
+	 margin:auto; 
+	 padding:20px 0 40px 0; 
+	 text-align:center; 
+	 background:#888;
+}
+
+#borderbox {
+    border:1px solid; 
+	width:300px;  
+	margin:auto; 
+	padding:20px 0 40px 0; 
+	text-align:center; 
+	background:#aaa;
+}
+
+#paddingbox {
+    border:1px solid; 
+	width:200px;  
+	margin:auto; 
+	padding:20px 0 40px 0; 
+	text-align:center; 
+	background:#ccc;
+}
+
+#contentbox {
+    border:1px solid; 
+	width:100px;  
+	margin:auto; 
+	padding:20px 0 40px 0; 
+	text-align:center; 
+	background:#eee;
+}
