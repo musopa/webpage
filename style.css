@@ -129,6 +129,15 @@ img {
 	-webkit-border-radius:1em; 
 	border-radius:1em;
 }
+
+#image {
+	border: solid 1px;
+	-moz-border-radius:1em; 
+	-o-border-radius:1em; 
+	-webkit-border-radius:1em; 
+	border-radius:1em;
+	width:300px;
+}
 /*-----------HTML Page-------------*/
 #table1 {
 border:1px solid #000;
