@@ -153,16 +153,8 @@ img {
 	-o-border-radius:1em; 
 	-webkit-border-radius:1em; 
 	border-radius:1em;
-}
-
-#image {
-	border:1px;
-	-moz-border-radius:1em; 
-	-o-border-radius:1em; 
-	-webkit-border-radius:1em; 
-	border-radius:1em;
-	margin-left:30%;
-	width:200px;
+	width:50%;
+	margin-left:0%;
 }
 
 .para {
