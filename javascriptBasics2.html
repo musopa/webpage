@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Buildin Websites for tutorials on HTML and CSS.">
+  <meta name="keywords" content="HTML, Cascading Style Sheets, css." />
+  <meta name="robots" content="index, nofollow" />
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <title>Building Websites</title>
+  <script>
+    function welcome() {
+      var alerttext = "Hello and welcome to JavaScript Part Two"
+      var confirmtext = "Do you wish to continue?"
+      var username = prompt("Please enter your name", "")
+      alert(alerttext)
+      confirm(confirmtext)
+      alert("hello, " + username + " " + "lets begin Part Two")
+    }
+  </script>
+  <script>
+    function MouseRollover(MyImage) {
+      MyImage.src = "computerstudies_logo.gif";
+    }
+
+    function MouseOut(MyImage) {
+      MyImage.src = "computerstudies_javascriptlogo.gif";
+    }
+  </script>
+</head>
+
+<body>
+  <h1 id="top" class="center">Building WebSites</h1>
+  <p class="center" id="image"><img src="webdesign.png" alt="webdesign image" /></p><br>
+  <nav class="nav"><a href="navigation.html">
+      <h3>WebSite Navigation</h3>
+    </a> </nav>
+  <br>
+  <hr>
+
+  <h2 class="center">JavaScript Basics Part 2</h2>
+
+  <br>
+  <div class="center">
+    <form action="onclick">
+      <p><input class="button" value="Click here to see how the script works" onclick="welcome ()" /></p>
+    </form>
+  </div>
+
+
+  <br>
+  <div class="paragraphs">
+    <p class="center">JavaScript code used to create the welcome dialogue</p>
+
+    <pre class="code">
+
+  &lt;script&gt;
+  function welcome ()
+  {<br>
+  &nbsp;&nbsp;var alerttext="Hello and welcome to JavaScript Part Two"
+  &nbsp;&nbsp;var confirmtext="Do you wish to continue?"
+  &nbsp;&nbsp;var username=prompt("Please enter your name","")
+  &nbsp;&nbsp;alert(alerttext)
+  &nbsp;&nbsp;confirm(confirmtext)
+  &nbsp;&nbsp;alert("hello, "+username+" " + "lets begin Part Two")
+  }<br>
+  &lt;/script&gt;
+
+  The code used in the body section
+
+  &lt;form class="center"&gt;
+  &lt;input type="button" value="Click here to see how the script works" onclick="welcome ()"&gt;
+  &lt;/form&gt;
+
+</pre>
+  </div>
+
+
+
+  <h3 class="center">Statements</h3>
+
+  <div class="paragraphs">
+    <p>Statements can be run when the document is loaded, Immediately after the document loads, when responding to a users action or when called by another script statement, JavaScript statements invoke object methods such as write as in the <span
+        class="bold">document.write</span>, initialise or define variables when naming the variable, manipulate variables, change the value of a variable, invoke a function routine that may need to be done over and over again, make programming
+      decisions using conditionals.</p>
+  </div>
+
+
+
+  <h3 class="center">Comments</h3>
+  <div class="paragraphs">
+    <p><span class="bold">// this is a single line comment</span></p>
+
+    <p><span class="bold">/* this is a comment that can use multiple lines */</span></p>
+
+    <p><span class="bold">&lt;!- - this is for the browser it comments out the javascript if the browser is not set up to read it, but a browser with javascript enabled will be able to read it //- - &gt;</span></p>
+  </div>
+
+  <h3 class="center">Programming concepts</h3>
+  <div class="paragraphs">
+    <p>Server side applications verses client side applications, server-side scripts rely on databases to generate the content, typically for frequently changing sites, PHP, ASP, .NET, JSP and ColdFusion are server-side applications, languages for
+      server-side programs include Java, Python, Perl, C#, C++, Visual basic sometimes using JavaScript for server-side applications, a web author needs to have control or the server and backend databases, the server scripting is often done by
+      accomplished programmers. With client side applications browsers can run separate plugins or applets for audio, video, animation (Adobe, flash, active X)</p>
+  </div>
+  <h3 class="center">Rollover Image</h3>
+
+
+  <div class="center">
+    <!--The rollover image displays here.-->
+    <p class="rollover"><img src="computerstudies_javascriptlogo.gif" alt="JavaScript logo" onMouseOver="MouseRollover(this)" onMouseOut="MouseOut(this)" width="150px" height="150px" /></p>
+  </div>
+  <br><br>
+  <div class="paragraphs">
+    <p class="center">JavaScript code used to create the rollover image</p>
+
+
+    <pre class="code">
+      &lt;script
+      function MouseRollover(MyImage) {
+      &nbsp;&nbsp;MyImage.src = "logo.gif";
+      }<br>
+      &nbsp;&nbsp;function MouseOut(MyImage) {
+      &nbsp;&nbsp;&nbsp;MyImage.src = "javascriptlogo.gif";
+      }<br>
+      &lt;/script&gt;
+
+      The code used in the body section
+
+      &lt;div align="center"&gt;
+      <!--The rollover image displays here.-->
+      &lt;img src="computerstudies_javascriptlogo.gif" alt="javascript logo" onMouseOver="MouseRollover(this)"
+      onMouseOut="MouseOut(this)" /&gt;
+      &lt;/div&gt;
+    </pre>
+  </div>
+
+  <h3 class="center">JavaScript variables</h3>
+  <div class="paragraphs">
+    <p>Almost all statements manipulate data (values), JavaScript has several formal data value types, String a series of alphanumeric characters in quotes, Number any number that is not in quotes, Boolean a logical true or false, Object an entity
+      that
+      is defined by properties and methods, Function a function definition and Null a value that is totally devoid of content, the best way to work with data in script is to assign the data to a variable using the var keyword to declare and
+      initialise
+      and you should choose variable names carefully.</p>
+  </div>
+  <br>
+  <div class="paragraphs">
+    <p>When naming variables you can't use spaces or dashes in between the names, although you could use the underscore to separate the words, camel case can be used such as firstName or lastName, also numbers can't be used at the start of the
+      variable
+      name although numbers can be used after the first letter, when declaring numbers in the variable you don't use them inside quotation marks.
+    </p>
+  </div>
+
+  <br>
+  <h3 class="center">Link for Learning Resorces</h3>
+  <p class="link"><a href=" links.html" title="computer" target="_blank">Learning Resorces</a></p>
+  <p class="link"><a href="#top" title="back to the top"> Back to the top of the page</a></p>
+
+  <hr>
+  <p class="center">Copyright &copy; Phil Lacey 2019</p>
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Buildin Websites for tutorials on HTML and CSS.">
+  <meta name="keywords" content="HTML, Cascading Style Sheets, css." />
+  <meta name="robots" content="index, nofollow" />
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <title>Building Websites</title>
+  <script src="script.js"></script>
+  <script>
+    alert("Hello and Welcome to the JavaScript Tutorial Click OK to continue");
+  </script>
+  <script>
+    function DisplayMsg(message) {
+
+      alert("Are you ready: " + message);
+    }
+  </script>
+</head>
+
+<body>
+  <h1 id="top" class="center">Building WebSites</h1>
+  <p class="center" id="image"><img src="webdesign.png" alt="webdesign image" /></p><br>
+  <nav class="nav"><a href="navigation.html">
+      <h3>WebSite Navigation</h3>
+    </a> </nav>
+  <br>
+  <hr>
+
+  <h2 class="center">JavaScript Basics Part 1</h2>
+
+  <p class="center"><img src="computerstudies_logo.gif" alt="Computer Studies javascript_logo" title="Computer Studies javascript_logo" height="157px" width="30px" /></p>
+  <div class="paragraphs">
+    <p>The code used to create the alert box that welcomed you to the tutorial as the page loaded is writen below&#44; an alert is a function that opens up an alert box and the text that was displayed is written inside the brackets in between
+      quotation marks you will also need to remember the semi&#45;colon after the closing brackets in order to display the text in the alert box with your browser&#44; also note that JavaScript is writen in between opening and closing script tags
+      <strong>&lt;script&gt;&lt;/script&gt;</strong> these can be placed in between the head or the body tags of a document or both the head and body sections of the document&#44; you can also link to an external script by including the src
+      link and linking to the external file name which would need to be saved with the &#46;js extension such as <strong>&lt;script src="externalscript.js"&gt;&lt;/script&gt;</strong>&#46;</p>
+  </div>
+  <br>
+
+  <div class="paragraphs">
+    <pre class="code">
+
+  &lt;html&gt;
+  &lt;head&gt;
+  &lt;title&gt;JavaScript&lt;/title&gt;
+  &lt;script&gt;
+  alert("Hello and Welcome to the JavaScript Tutorial Click OK to continue");
+  &lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+  &lt;/body&gt;
+  &lt;/html&gt;
+
+</pre>
+  </div>
+  <br>
+  <div class="paragraphs">
+    <p>To write JavaScripts open your web browser you don't even need to be connected to the internet also you need to open a simple text editor such as notepad you wouldn&#39;t use Microsoft word because when you save the document it saves other
+      metadata which can cause problems with the scripts&#44; you will have to make sure your code is written the same throughout as JavaScript is case sensitive&#46;</p>
+  </div>
+  <br>
+  <div class="paragraphs">
+    <pre class="code">
+
+  &lt;html&gt;
+    &lt;head&gt;
+    &lt;title&gt;JavaScript&lt;/title&gt;
+    &lt;script&gt;
+      function DisplayMsg (message)
+     {<br>
+    &nbsp;&nbsp;alert("Are you ready: " + message);
+     }<br>
+  &lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+  &lt;form&gt;
+  &lt;input type="button" value="Click here to see how the script works" <br/>onclick="DisplayMsg('to begin your JavaScript Tutorial')"&gt;
+  &lt;/form&gt;
+  &lt;/body&gt;
+  &lt;/html&gt;
+
+</pre>
+  </div>
+
+  <br>
+  <div class="center">
+    <form action="onclick">
+      <p><input class="button" value="Click here to see how the script works" onclick="DisplayMsg('to begin your JavaScript Tutorial')" /></p>
+    </form>
+  </div>
+
+  <h3 class="center">JavaScript Event Handlers</h3>
+  <div class="paragraphs">
+    <p>Event handlers are built&#45;in mechanisms that basically scan for events or actions to happen&#46; For example: when someone clicks the mouse on a piece of text: onClick&#46; when someone moves the mouse over an image: onMouseOver&#46; when a
+      page is loaded into the web browser: onLoad</p>
+  </div>
+  <br>
+  <div class="paragraphs">
+    <p class="center">Examples of using various event handlers to fire off alerts()</p>
+
+    <pre class="code">
+  &lt;p onclick="alert('This will open up an alert box when you click here');"&gt;Click Here&#33;&lt;/p&gt;
+    </pre>
+  </div>
+
+  <p class="center" onclick="alert('This will open up an alert box when you click here');"><span class="bold">Click Here!</span></p>
+
+  <div class="paragraphs">
+    <p>Note: when using the mouseover this will open the alert box wherever you move the mouse in line with the chosen text across the screen&#46; to alter this in the code so that it just opens the alert box when hovering over just the text area in
+      question add the following code:</p>
+
+    <pre class="code">
+
+&lt;p style="width:200px"
+onmouseover="alert('This will open up an alert box when you move the mouse over it');"
+&gt;Move mouse over&lt;/p&gt;
+
+    </pre>
+  </div>
+
+  <div class="mouse">
+    <p class="center" style="width:35%" onmouseover="alert('This will open up an alert box when you move the mouse over it');"><strong>Move mouse over</strong></p>
+  </div>
+  <div class="paragraphs">
+    <p>You can also specify for an alert box to open up when the page is loaded into the browser by inserting onLoad within the body tag such as:
+
+      <span class="bold">&lt;body onLoad="alert('this will open this alert when the page is loading');"&gt;</span>
+    </p>
+  </div>
+  
+
+  <br>
+  <h3 class="center">Link for Learning Resorces</h3>
+  <p class="link"><a href=" links.html" title="computer" target="_blank">Learning Resorces</a></p>
+  <p class="link"><a href="#top" title="back to the top"> Back to the top of the page</a></p>
+
+  <hr>
+  <p class="center">Copyright &copy; Phil Lacey 2019</p>
+</body>
+
+</html>

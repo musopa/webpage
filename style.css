@@ -153,16 +153,6 @@ img {
   border-radius: 1em;
   width: 50%;
 }
-/*
-#image {
-  border:0px;
-  -moz-border-radius: 1em;
-  -o-border-radius: 1em;
-  -webkit-border-radius: 1em;
-  border-radius: 1em;
-  display:float-left;
-  width: 30%;
-}*/
 
 .para {
   color: blue;
@@ -357,8 +347,27 @@ box model
   background: #eee;
 }
 /* ---------------------------------------------------
-Footer
+Javascript
 -----------------------------------------------------*/
+.button {
+	width:450px;
+	padding:20px;
+	font-size:1em;
+	text-align:center;
+	border:3px solid #000;
+	border-radius:5px;
+}
+
+#SiteClock {
+	border:1px solid #000;
+	border-radius:5px;
+	margin-left:42%; 
+	background: #EEE8AA;
+	width:203px;
+	padding:20px; 
+	color:#005; 
+}
+
 /*
 .footer{
 	background-color:#EEE8AA;
