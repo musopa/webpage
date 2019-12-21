@@ -201,20 +201,20 @@ CSS Page
 #table2 {
   border: 1px solid #000;
   margin: auto;
-  margin-left: 30%;
-  width: 40%;
+  margin-left: 25%;
+  width: 50%;
 }
 
 table tr td {
-  width: 40%;
+  width: 30%;
   height: auto;
   padding: 5px;
   border: 1px solid #000;
 }
 
 .tab {
-  width: 40%;
-  margin-left: 30%;
+  width: 60%;
+  margin-left: 20%;
   height: auto;
   padding: 5px;
 }
@@ -361,11 +361,11 @@ Javascript
 #SiteClock {
 	border:1px solid #000;
 	border-radius:5px;
-	margin-left:42%; 
+	margin-left:42%;
 	background: #EEE8AA;
 	width:215px;
-	padding:20px; 
-	color:#005; 
+	padding:20px;
+	color:#005;
 }
 
 /*
