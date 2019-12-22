@@ -154,6 +154,16 @@ img {
   width: 50%;
 }
 
+.images {
+  border:1em;
+  -moz-border-radius: 1em;
+  -o-border-radius: 1em;
+  -webkit-border-radius: 1em;
+  border-radius: 1em;
+  width: 30%;
+  height:0%;
+}
+
 .para {
   color: blue;
   background: #FAFAD2;
