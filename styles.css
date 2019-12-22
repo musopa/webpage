@@ -60,7 +60,7 @@ p {
   color: #805746;
   font-family: 'Montserrat', sans-serif;
   font-size:1.5em;
-  text-align:center;
+  text-align:justify;
 }
 
 pre {
@@ -73,8 +73,9 @@ pre {
 
 .section {
   background: #FFE4D9;
-	margin-left:25%;
+  margin-left:25%;
   width: 50%;
+  text-align:justify;
 }
 
 .center {
