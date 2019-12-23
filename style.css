@@ -178,7 +178,7 @@ img {
 
 .paragraphs {
   color: blue;
-  background: #EEE8AA;
+  background: #FFFBDB;
   border:1px;
   -moz-border-radius: 1em;
   -o-border-radius: 1em;
@@ -186,6 +186,20 @@ img {
   border-radius: 1em;
   margin-left: 10%;
   width: 80%;
+}
+
+.lists {
+  color: #000;
+  background: #EEE8AA;
+  border:1px;
+  -moz-border-radius: 1em;
+  -o-border-radius: 1em;
+  -webkit-border-radius: 1em;
+  border-radius: 1em;
+  font-size:1.5em;
+  padding:10px;
+  margin-left: 20%;
+  width: 60%;
 }
 
 /* ---------------------------------------------------
