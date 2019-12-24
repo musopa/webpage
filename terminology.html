@@ -69,18 +69,18 @@
   <br>
   <div class="paragraphs">
     <pre class="code">
-      
-  &lt;html&gt;
-  &lt;head&gt;
-  &lt;title&gt;Exercise 1&lt;/title&gt;
-  &lt;style type="text/css"&gt;
-    p {color:#0000ff;}
-  &lt;/style&gt;
-  &lt;/head&gt;
-    &lt;body&gt;
-      &lt;p&gt;This paragraph should be coloured blue&lt;/p&gt;
-    &lt;/body&gt;
-  &lt;/html&gt;
+
+               &lt;html&gt;
+                  &lt;head&gt;
+                    &lt;title&gt;Exercise 1&lt;/title&gt;
+                    &lt;style type="text/css"&gt;
+                      p {color:#0000ff;}
+                    &lt;/style&gt;
+                  &lt;/head&gt;
+                   &lt;body&gt;
+                      &lt;p&gt;This paragraph should be coloured blue&lt;/p&gt;
+                   &lt;/body&gt;
+               &lt;/html&gt;
   </pre>
 
 
@@ -91,14 +91,15 @@
     <p class="center">Inline styles are placed within the body of the document to target specific elements</p>
 
     <pre class="code">
-  &lt;p style="background&#45;color:#ccc; color:#f00;"&gt;This paragraph should have a
-  background colour of grey and the text is coloured red this is achieved by
-  using an inline style&lt;/p&gt;
+
+   &lt;p style="background&#45;color:#ccc; color:#f00;"&gt;This paragraph should
+   have a background colour of grey and the text is coloured red this is
+   achieved by using an inline style&lt;/p&gt;
   </pre>
 
     <br>
-    <p class="center" style="background-color:#ccc; color:#f00;">This paragraph should have a background colour of grey
-      and the text is coloured red this is achieved by using an inline style</p>
+    <p class="center" style="background-color:#ccc; color:#f00;">This paragraph should have a background colour
+      of grey and the text is coloured red this is achieved by using an inline style</p>
     <br>
   </div>
   <br>
@@ -108,7 +109,8 @@
 
 
     <pre class="code">
-  &lt;link rel="stylesheet" type="text/css" href="style&#46;css" media="all"&gt;
+
+    &lt;link rel="stylesheet" type="text/css" href="style&#46;css" media="all"&gt;
     </pre>
 
 
@@ -121,7 +123,8 @@
 
 
     <pre class="code">
-  &lt;link rel="stylesheet" type="text/css" href="style&#46;css" media="all"&gt;<br />
+
+   &lt;link rel="stylesheet" type="text/css" href="style&#46;css" media="all"&gt;<br />
   &lt;link rel="stylesheet" type="text/css" href="secondarystyle&#46;css" media="all"&gt;
   </pre>
   </div>
@@ -131,12 +134,13 @@
 
 
     <pre class="code">
-  &lt;head&gt;
-    &lt;link rel="stylesheet" type="text/css" href="secondarystyle&#46;css" media="all"&gt;
-    &lt;style type="text/css"&gt;
-    p {color:#0000ff;}
-    &lt;/style&gt;
-  &lt;/head&gt;
+
+&lt;head&gt;
+  &lt;link rel="stylesheet" type="text/css" href="secondarystyle&#46;css" media="all"&gt;
+  &lt;style type="text/css"&gt;
+  p {color:#0000ff;}
+  &lt;/style&gt;
+&lt;/head&gt;
   </pre>
   </div>
   <br>
@@ -145,15 +149,19 @@
     <p class="center">A style sheet can also be imported into the document using</p>
 
     <pre class="code">
-  @import url&#40; style&#46;css&#41; ;</pre>
+
+                         @import url&#40; style&#46;css&#41;;
+
+</pre>
   </div>
   <br>
   <div class="paragraphs">
     <p class="center">You can also import more than one style sheet&#44; this would maybe be used for linking style sheets together</p>
 
     <pre class="code">
-  @import url&#40; style&#46;css&#41; ;
-  @import url&#40; secondarystyle&#46;css&#41; ;
+
+                         @import url&#40; style&#46;css&#41; ;
+                         @import url&#40; secondarystyle&#46;css&#41;;
   </pre>
   </div>
   <br>
@@ -167,16 +175,18 @@
   <div class="paragraphs">
     <p class="center">The Id is written with an hash tag before the name in the style sheet such as</p>
     <pre class="code">
-#blue {
-    color: #0000CD;
-}
+
+                            #blue {
+                              color: #0000CD;
+                            }
     </pre>
 
-<p class="center">The class is written with an full stop before the name in the style sheet such as</p>
-<pre class="code">
-.center {
-  text-align: center;
-}
+    <p class="center">The class is written with an full stop before the name in the style sheet such as</p>
+    <pre class="code">
+
+                           .center {
+                              text-align: center;
+                           }
 
 </pre>
   </div>
