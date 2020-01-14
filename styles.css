@@ -82,12 +82,16 @@ pre {
 	text-align:center;
 }
 
-.top-cloud {
-margin-left:30%;
+.top-heart {
+margin-left:36%;
 }
 
-.bottom-cloud {
+.bottom-heart {
   margin-left: 60%;
+}
+
+.audio {
+	border-style:none;
 }
 
 .link a {
