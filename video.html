@@ -11,52 +11,61 @@
   <meta property="og:image" content="http://www.building-websites.org/images/building-websites-webdesign.png">
   <link rel="canonical" href="http://www.building-websites.org/template.html" />
   <meta name="robots" content="index, follow" />
-  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="images/Building-Websites-favicon.ico">
   <link rel="stylesheet" href="style.css">
   <title>Building Websites Video/Music</title>
-  
- </head>
+  <script src="http://w.sharethis.com/button/buttons.js"></script>
+  <script>
+    stLight.options({
+      publisher: 'ef1dd1b4-e072-4011-b107-81ada4922de5'
+    });
+  </script>
+
+</head>
 
 <body>
   <h1 id="top" class="center">Building WebSites</h1>
-  <p class="center" id="image"><img src="webdesign.png" alt="Building-Websites webdesign image" /></p><br>
+  <p class="center" id="image"><img src="images/Building-Websites-webdesign.png" alt="Building-Websites webdesign image" /></p><br>
   <nav class="nav"><a href="index.html">
       <h3>WebSite Navigation</h3>
     </a> </nav>
   <br>
-  
+  <div id="feed" class="center">
+    <span class='st_twitter'>Tweet</span><span class='st_facebook'>Facebook</span><span class='st_sharethis'>ShareThis</span>
+  </div>
+  <br>
   <hr>
   <br>
   <h2 class="center">Embedding Video and Music Files</h2>
   <div class="paragraphs">
     <p class="center">The HTML code for embedding the Video</p>
     <pre class="code">
-          &lt;div class="center"&gt;
-            &lt;video controls class="video"&gt;
-              &lt;source src="music/fireworks.mp4" type="video/mp4"&gt;
-              Your browser does not support the video tag.
-            &lt;/video&gt;
-          &lt;/div&gt;
+              &lt;div class="center"&gt;
+                &lt;video controls class="video"&gt;
+                  &lt;source src="music/fireworks.mp4" type="video/mp4"&gt;
+                  Your browser does not support the video tag.
+                &lt;/video&gt;
+              &lt;/div&gt;
 
     </pre>
   </div>
   <div class="center">
     <video controls class="video">
-      <source src="Fireworks.mp4" type="video/mp4">
+      <source src="music/Fireworks.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
   <br>
   <div class="paragraphs">
-    <p class="center">The HTML code for embedding the a music file</p>
+    <p class="center">The HTML code for embedding a music file</p>
     <pre class="code">
-          &lt;div class="center"&gt;
-            &lt;audio controls class="audio"&gt;
-              &lt;source src="music/Keren.ogg" type="audio/ogg"&gt;
-                &lt;source src="music/Keren.mp3" type="audio/mpeg"&gt;
-              Your browser does not support the audio element.
-            &lt;/audio&gt;
-          &lt;/div&gt;
+              &lt;div class="center"&gt;
+                &lt;audio controls class="audio"&gt;
+                  &lt;source src="music/Keren.ogg" type="audio/ogg"&gt;
+                  &lt;source src="music/Keren.mp3" type="audio/mpeg"&gt;
+                  Your browser does not support the audio element.
+                &lt;/audio&gt;
+              &lt;/div&gt;
 
     </pre>
   </div>
@@ -65,8 +74,8 @@
     <h3>A tune I wrote for my wife Keren</h3>
     <br>
     <audio controls class="audio">
-      <source src="Keren.ogg" type="audio/ogg">
-      <source src="Keren.mp3" type="audio/mpeg">
+      <source src="music/Keren.ogg" type="audio/ogg">
+      <source src="music/Keren.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
 
