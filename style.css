@@ -377,3 +377,17 @@ Javascript
 	color:#005;
 }
 
+/* ---------------------------------------------------
+Video Page
+-----------------------------------------------------*/
+
+.video {
+	margin:auto;
+	width:40%;
+}
+.audio {
+	border-style:none;
+	margin:auto;
+	width:20%;
+}
+
