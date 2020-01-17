@@ -26,6 +26,15 @@ body {
   width:50%;
 }
 
+.tunes {
+  background:#FFE4D9;
+  border: 1px solid #805746;
+  border-radius: 1em;
+  text-align:center;
+  margin-left:30%;
+  width:40%;
+}
+
 hr {
   border-style: none;
   border-color: #805746;
@@ -129,7 +138,7 @@ a:hover {
 }
 
 #nav {
-   width:30%;
+   width:40%;
    margin-left:60% ;
  }
 
@@ -144,7 +153,7 @@ a:hover {
  }
 
  #nav a {
-   width:20%;
+   width:15%;
    padding:10px 30px;
    color:#805746;
    text-decoration:none;
