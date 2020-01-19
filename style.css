@@ -386,9 +386,11 @@ Video Page
 	width:40%;
 }
 .audio {
-	border-style:none;
 	margin:auto;
 	width:20%;
+	box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
+    border-radius: 90px;
+    transform: scale(1.05);
 }
 
 /* ---------------------------------------------------

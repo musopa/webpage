@@ -29,8 +29,9 @@ body {
 .tunes {
   background:#FFE4D9;
   border: 1px solid #805746;
-  border-radius: 1em;
-  text-align:center;
+  box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
+  border-radius: 15px;
+  text-align:center;  
   margin-left:30%;
   width:40%;
 }
@@ -100,7 +101,11 @@ margin-left:36%;
 }
 
 .audio {
-	border-style:none;
+	margin:auto;
+	width:35%;
+	box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
+    border-radius: 90px;
+    transform: scale(1.05);
 }
 
 .link a {
