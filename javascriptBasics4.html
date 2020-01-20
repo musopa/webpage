@@ -4,9 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Building Websites for tutorials on HTML, CSS and Javascript.">
   <meta name="keywords" content="Javascript, JavaScript Basics Part 4, JavaScript Clock, Objects, HTML, Cascading Style Sheets, CSS." />
+  <meta name="twitter:image" content="http://www.building-websites.org/webdesign.png">
+  <meta property="og:image" content="http://www.building-websites.org/webdesign.png">
   <link rel="canonical" href="http://www.building-websites.org/javascriptBasics4.html" />
   <meta name="robots" content="index, follow" />
   <link rel="icon" href="favicon.ico">
@@ -45,12 +47,12 @@ document.getElementById("SiteClock").innerHTML = currentTimeString;
 }
 
 </script>
-
+ 
 </head>
 
 <body>
   <h1 id="top" class="center">Building WebSites</h1>
-  <p class="center" id="image"><img src="webdesign.png" alt="webdesign image" /></p><br>
+  <p class="center" id="image"><img src="webdesign.png" alt="Building-Websites webdesign image" /></p><br>
   <nav class="nav"><a href="index.html">
       <h3>WebSite Navigation</h3>
     </a> </nav>
@@ -91,8 +93,11 @@ document.getElementById("SiteClock").innerHTML = currentTimeString;
 
   &nbsp;&nbsp;  currentHours = ( currentHours == 0 ) ? 12 : currentHours;
 
-  &nbsp;&nbsp;  var currentTimeString = currentHours + ":" + currentMinutes + ":" + currentSeconds + "
-  " + timeOfDay + ' - ' + currentDay + '/' + currentMonth + '/' + currentYear;
+  &nbsp;&nbsp;  var currentTimeString = currentHours + ":" + currentMinutes +
+
+      ":" + currentSeconds + "   " + timeOfDay + ' - ' + currentDay + '/' +
+
+      currentMonth + '/' + currentYear;
 
    &nbsp;&nbsp; document.getElementById("SiteClock").innerHTML = currentTimeString;<br/>
   }<br>
@@ -103,7 +108,7 @@ document.getElementById("SiteClock").innerHTML = currentTimeString;
 
   <h3 class="center">Objects</h3>
 
-  <p class="center"><img src="computerstudies_logo.gif" class="images" alt="Computer Studies javascript_logo" title="Computer Studies javascript_logo"/></p>
+  <p class="center"><img src="Building-Websites-logo.gif" class="images" alt="Building-Websites javascript logo" title="Building-Websites  javascript logo"/></p>
 
   <div class="paragraphs">
     <p>The browser creates most objects, loading them into memory when the document loads in the browser, the JavaScript enhanced browser loads HTML elements and creates a hierarchy of objects whether the script calls for them or not, the property
@@ -221,12 +226,12 @@ document.getElementById("SiteClock").innerHTML = currentTimeString;
   </table>
   <br>
   <h3 class="center">Link for Learning Resorces</h3>
-  <p class="link"><a href=" links.html" title="computer" target="_blank">Learning Resorces</a></p>
+  <p class="link"><a href=" links.html" title="Building-Websites" target="_blank">Learning Resorces</a></p>
   <p class="link"><a href="#top" title="back to the top"> Back to the top of the page</a></p>
 
   <br>
   <hr>
-  <p class="center"><a href="https://www.facebook.com/Building-websites-104161111105365/" target="_blank">Building Websites on Facebook</a></p>
+  <p class="center"><a href="https://www.facebook.com/Building-websites-104161111105365/" title="Building-Websites" target="_blank">Building Websites on Facebook</a></p>
 
   <p class="center">email: info@building-websites.org</p>
   <p class="center">Copyright &copy; Phil Lacey 2020</p>

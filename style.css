@@ -48,27 +48,6 @@ h3 {
   text-shadow: 3px 3px 3px #999;
 }
 
-h4 {
-  color: #005;
-  font-size: 1.0em;
-  padding: 10px;
-  text-shadow: 3px 3px 3px #999;
-}
-
-h5 {
-  color: #005;
-  font-size: 1.0em;
-  padding: 10px;
-  text-shadow: 3px 3px 3px #999;
-}
-
-h6 {
-  color: #005;
-  font-size: 1.0em;
-  padding: 10px;
-  text-shadow: 3px 3px 3px #999;
-}
-
 hr {
   border-style: none;
   border-color: #D2B48C;
@@ -138,6 +117,8 @@ a:hover {
 
 .code {
   background-color: #FAFAD2;
+  border:1px solid #000;
+  border-radius:1em;
   font-weight: bold;
   font-size: 1.8em;
   margin-left:10%;
