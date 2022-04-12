@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Building Websites for tutorials on HTML, CSS and Javascript.">
+  <meta name="keywords" content="Cascading Style Sheets, CSS, Horizontal Navigation Bar." />
+  <link rel="canonical" href="http://www.building-websites.org/horizontal.html" />
+  <meta name="robots" content="index, follow" />
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <title>Building Websites Horizontal Navigation</title>
+  <script src="http://w.sharethis.com/button/buttons.js"></script><script >stLight.options({publisher:'ef1dd1b4-e072-4011-b107-81ada4922de5'});</script>
+</head>
+
+<body>
+  <h1 id="top" class="center">Building WebSites</h1>
+  <p class="center" id="image"><img src="webdesign.png" alt="webdesign image" /></p><br>
+  <nav class="nav"><a href="index.html"><h3>WebSite Navigation</h3></a> </nav>
+  <br>
+  <div id="feed" class="center">
+<span class='st_twitter'>Tweet</span><span  class='st_facebook'>Facebook</span><span  class='st_sharethis'>ShareThis</span>
+</div>
+<br>
+  <hr>
+
+
+  <h2 id="horizontal" class="center">Horizontal Navigation Bar</h2>
+  <div class="paragraphs">
+    <p>Here we will be creating a horizontal navigation bar the HTML is the same as in the vertical navigation an unordered list as been created in between div tags which as been given the ID of navigation with anchor tags to create the links to the
+      other web pages within the li tags&#46; </p>
+  </div>
+  <br>
+  <div class="paragraphs">
+    <pre class="code">
+                    &lt;div&nbsp;id="horizontalNavigation"&gt;
+                      &lt;ul&gt;
+                        &lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="#"&gt;About&lt;/a>&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="#"&gt;Services&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="#"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+                      &lt;/ul&gt;
+                    &lt;/div&gt;
+  </pre>
+  </div>
+  <br>
+
+  <div class="paragraphs">
+    <p>Next we start creating the CSS code the body element has been styled&#44; but it&#39;s the navigation div area that we will be setting up&#44; the different areas where the coding takes effect&#46; The navigation div&#44; the ul tag inside the
+      div&#44; the list li elements and the a elements&#46; </p>
+  </div>
+  <br>
+  <div class="paragraphs">
+    <p>Here we have given a width to the navigation div&#44; added margin and padding of 0px and removed the bullets on the ul&#44; the li is given the displayed inline property and value&#46; The a element is floated left this changes the inline
+      element giving it a block like element to give it dimension and padding is added to the top and bottom of 5px and the left and right hand sides of 15px notice that the ul as collapsed but this will be rectified later&#46; Some text and
+      background
+      colour is added and the underline is removed using text&#45;decoration&#58;none; Now we will remove the border and space the buttons out a bit more by adding margin&#58;0 2px 0 0;</p>
+  </div>
+  <br>
+  <div class="paragraphs">
+    <p>Here we have added a background and text colour for when the mouse is moved over the buttons&#46; To correct the collapsed ul we add float left to the navigation div this is because the container is the parent of the a element which was
+      floated
+      earlier causing the container to collapse and in order to correct this we need to also float the parent container&#46; And finally remove the border from the ul and alter the border of the navigation div. </p>
+  </div>
+
+
+  <h3 class="center">The CSS for the horizontal navigation</h3>
+  <div class="paragraphs">
+    <pre class="code">
+                         #horizontalnavigation {
+                          	width:75%;
+                          	float:left;
+                          	margin:0 0 20px 200px;
+                         }
+
+                         #horizontalnavigation ul {
+                          	margin:0px;
+                          	padding:0px;
+                          	list-style-type:none;
+                         }
+
+                         #horizontalnavigation li {
+                          	display:inline;
+                         }
+
+                         #horizontalnavigation a {
+                          	border-bottom:1px solid #000;
+                          	border-right:1px solid #000;
+                          	border-left:1px solid #000;
+                          	border-top:1px solid #000;
+                          	float:center;
+                          	width:20%;
+                          	padding:10px 30px;
+                          	color:#000;
+                          	background:#fff;
+                          	text-decoration:none;
+                          	margin:auto ;
+                         }
+
+                         #horizontalnavigation a:hover {
+                          	color:#000;
+                          	background:#FFFACD;
+                         }
+  </pre>
+  </div>
+
+  <h3 class="center">The finished navigation bar</h3>
+
+  <br>
+  <div id="horizontalnavigation" class="center">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  <br><br>
+  <h3 class="center">Link for Learning Resorces</h3>
+  <p class="link"><a href=" links.html" title="computer" target="_blank">Learning Resorces</a></p>
+  <p class="link"><a href="#top" title="back to the top"> Back to the top of the page</a></p>
+<br>
+  <hr>
+  <p class="center"><a href="https://www.facebook.com/Building-websites-104161111105365/" target="_blank">Building Websites on Facebook</a></p>
+
+  <p class="center">email: info@building-websites.org</p>
+  <p class="center">Copyright &copy; Phil Lacey 2020</p>
+</body>
+
+</html>
